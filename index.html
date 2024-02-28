@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css" />
+    <script src="https://kit.fontawesome.com/8774629e76.js" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+    <div id="home"></div>
+    <header>
+      <nav class="container nav_container">
+        <div class="sub-nav1">
+          <h3>Sumit Sulakhe</h3>
+        </div>
+        <div class="sub-nav2">
+          <a class="sections" href="#home">home</a>
+          <a class="sections" href="#about">about</a>
+          <a class="sections" href="#skills">skills</a>
+          <a class="sections" href="#education">education</a>
+          <a class="sections" href="#projects">Projects</a>
+          <a class="sections" href="#certifications">Certifications</a>
+          <a class="sections" href="#contact">contact</a>
+        </div>
+
+        <div class="res-sub-nav2">
+          <i class="bars fa-solid fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="container main-containt">
+        <div class="main-name">
+          <div class="main-name-sub">
+            <div class="main-name-subdivision">
+              <h1>Hi There,</h1>
+              <h1>I'm Sumit Suresh <span style="color: #ff7b00"> Sulakhe</span></h1>
+            </div>
+
+            <h2>I Am Into <span>Front end Developer</span></h2>
+            <a style="text-decoration: none" class="btn" href="#about">About Me<i class="fa-regular fa-circle-down"></i></a>
+          </div>
+          <div class="main-name-sub-2">
+            <a
+              onmouseenter="FunProfileToggle(this, true)"
+              onmouseleave="FunProfileToggle(this, false)"
+              class="links in"
+              href="https://www.linkedin.com/in/sumit-suresh-sulakhe-423732258/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-linkedin"></i>
+            </a>
+            <a
+              onmouseenter="FunProfileToggle(this, true)"
+              onmouseleave="FunProfileToggle(this, false)"
+              class="links github"
+              href="https://github.com/Sumit-Sulakhe"
+              target="_blank"
+            >
+              <i class="fa-brands fa-square-github"></i>
+            </a>
+            <a
+              onmouseenter="FunProfileToggle(this, true)"
+              onmouseleave="FunProfileToggle(this, false)"
+              class="links telegram"
+              href="https://web.telegram.org/k/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-telegram"></i>
+            </a>
+            <a
+              onmouseenter="FunProfileToggle(this, true)"
+              onmouseleave="FunProfileToggle(this, false)"
+              class="links instagram"
+              href="https://www.instagram.com/s_aa_sumit/"
+              target="_blank"
+            >
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+          </div>
+        </div>
+        <div class="avatar-dp">
+          <img
+            src="https://img.freepik.com/premium-vector/portrait-young-man-with-beard-hair-style-male-avatar-vector-illustration_266660-423.jpg?w=200"
+            alt="avatar"
+          />
+        </div>
+      </div>
+    </main>
+    <!-- {
+            Creating About Section
+        } -->
+    <div id="about"></div>
+    <div class="parent-about-section">
+      <div class="container about_section_main">
+        <h1 style="text-align: center"><i class="fas fa-user-alt"></i> About <span style="color: #7303a7">Me</span></h1>
+
+        <div class="about_section">
+          <div class="picture">
+            <img draggable="false" src="./images/sumith.jpg" alt="sumith" />
+          </div>
+          <div class="about_info">
+            <div class="about_info_child">
+              <h3>I'm Sumith</h3>
+              <h4>Frontend Developer</h4>
+            </div>
+
+            <p>
+              I am a dedicated front-end developer residing in Haveri, nestled within the charming Haveri district. With a strong foundation
+              in HTML, CSS, and JavaScript, I craft captivating and dynamic websites that seamlessly blend creativity and functionality. My
+              expertise extends to harnessing the power of React JS to create immersive user experiences. A quick learner by nature, I
+              approach coding with unwavering passion, constantly seeking new opportunities to enhance my skills and bring innovative ideas
+              to life. My journey as a developer is a testament to my commitment to excellence and my unquenchable thirst for knowledge in
+              the ever-evolving world of web development.
+            </p>
+            <div class="about_info_child">
+              <h4 style="color: #6372ff; font-weight: 200">Email: <span style="color: black">sumitsulakhe2565@gmail.com</span></h4>
+              <h4 style="color: #6372ff; font-weight: 200">Place: <span style="color: black">banglore,india - 581110</span></h4>
+            </div>
+
+            <a
+              style="text-decoration: none; color: #fff"
+              target="_blank"
+              href="https://drive.google.com/file/d/1wyrCq1MJxc4KUIJgvDEQUiFDKATDi8H1/view"
+              class="res_btn"
+              >Resume <i class="fa-solid fa-greater-than"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="skills"></div>
+    <div class="Parent_skill_section">
+      <div class="container child_skill_section">
+        <h2>
+          <i class="fas fa-laptop-code"></i>
+          Skills & <span>Abilities</span>
+        </h2>
+
+        <div class="skill_container"></div>
+      </div>
+    </div>
+    <div id="education"></div>
+    <div class="parent_myeducation_section">
+      <div class="container child_myeducation_section">
+        <h2 class="myedu">
+          <i class="fas fa-graduation-cap"></i>
+          My & <span>Education</span>
+        </h2>
+        <div class="education_studies">
+          <div class="edu bachelors">
+            <img src="./images/sumithgec.jpg" alt="Gec" />
+            <div class="infoedu about_bachelors">
+              <h2>Bachelor Of Engineering In Mechanical</h2>
+              <p>Government Engineering College Huvinahadagali</p>
+              <h3>2020-2023 | Graduated</h3>
+            </div>
+          </div>
+          <div class="edu puc">
+            <img src="./images/polytechnic.jpg" alt="polytechnic" />
+            <div class="infoedu about_puc">
+              <h2>Diploma | Mechanical</h2>
+              <p>Sri Channakeshava Government Polytechnic, Guddada Channapur, Bankapur</p>
+              <h3>2016-2019 |Completed</h3>
+            </div>
+          </div>
+          <div class="edu sslc">
+            <img src="./images/sslc.jpeg" alt="sslc" />
+            <div class="infoedu about_sslc">
+              <h2>Class X | General</h2>
+              <p>Morarji Desai Residential School Ganjigatti, Shiggoan</p>
+              <h3>2015-2016 | Completed</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="projects"></div>
+    <div class="parent_projects_section">
+      <h2><i class="fas fa-laptop-code"></i> Projects <span style="color: #ffe600">Mode</span></h2>
+      <div class="container child_projects_section">
+        <div class="project_cards">
+          <img src="./images/Netflixgpt.png" alt="Netflix-GPT" />
+          <div class="child_project_cards">
+            <div class="pr project_flipkart_clone">
+              <h2>Netflix-GPT</h2>
+            </div>
+            <div class="content">
+              <h6 class="content_tag">
+                "I developed a Netflix-inspired application using React.js, Firebase, Redux Toolkit, and Tailwind CSS, providing a seamless
+                and responsive user experience for streaming content."
+              </h6>
+            </div>
+            <div class="btns">
+              <a href="https://jade-brigadeiros-25cdd1.netlify.app/" target="_blank"><i class="fas fa-eye"></i>View</a>
+              <a href="https://github.com/amithsulakhe/Netflix-gpt" target="_blank"><i class="fas fa-code"></i>Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project_cards">
+          <img src="./images/Flipkart.png" alt="Flipkart" />
+          <div class="child_project_cards">
+            <div class="pr project_flipkart_clone">
+              <h2>Flipkart Clone</h2>
+            </div>
+            <div class="content">
+              <h6 class="content_tag">
+                Flipkart Clone forged with HTML, CSS, and pure JavaScript. Experience seamless frontend finesse, exploring my portfolio's
+                impressive showcase of dynamic, responsive design.
+              </h6>
+            </div>
+            <div class="btns">
+              <a href="https://keen-smakager-69bd67.netlify.app/" target="_blank"><i class="fas fa-eye"></i>View</a>
+              <a href="https://github.com/amithsulakhe/Flipkart-clone" target="_blank"><i class="fas fa-code"></i>Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project_cards">
+          <img src="./images/Portfolio.png" alt="Pagination" />
+          <div class="child_project_cards">
+            <div class="pr project_pagination">
+              <h2>Pagination</h2>
+            </div>
+            <div class="content">
+              <h6 class="content_tag">
+                Presenting my pagination masterpiece: an HTML, CSS, and React.js creation. Seamlessly navigate through content, showcasing
+                my adeptness in frontend technologies. Explore this achievement in my portfolio.
+              </h6>
+            </div>
+            <div class="btns">
+              <a href="https://melodious-flan-ae6db8.netlify.app/" target="_blank"> <i class="fas fa-eye"></i>View</a>
+              <a href="https://github.com/amithsulakhe/Pagination" target="_blank"><i class="fas fa-code"></i>Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project_cards">
+          <img src="./images/Portfolio1.png" alt="Portfolio" />
+          <div class="child_project_cards">
+            <div class="pr project_portfolio">
+              <h2>Portfolio</h2>
+            </div>
+            <div class="content">
+              <h6 class="content_tag">
+                Behold, my comprehensive portfolio site! Crafted with precision using HTML, CSS, and pure JavaScript, it showcases my
+                multifaceted skills in frontend development. Explore and experience my digital prowess.
+              </h6>
+            </div>
+            <div class="btns">
+              <a href="https://dazzling-gecko-c0a45d.netlify.app/" target="_blank"><i class="fas fa-eye"></i>View</a>
+              <a href="https://github.com/amithsulakhe/Portfolio" target="_blank"><i class="fas fa-code"></i>Code</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="certifications"></div>
+    <div class="parent_certification_section">
+      <h2 class="cert_header"><i style="color: #ffe600" class="fa-solid fa-certificate"></i> Certifications</h2>
+      <div class="container child_certification_section">
+        <div class="certifications">
+          <img src="./images/Spython.png" class="img" alt="python" />
+          <img src="./images/sjs.png" class="img" alt="JavaScript" />
+          <img src="./images/Html.png" class="img" alt="KodnestCertificate" />
+          <img src="./images/TcsScoresumit.png" alt="Tcs" class="img" />
+        </div>
+        <div class="btn_prev_next">
+          <button class="prev" onclick="goPrev()">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+          <button class="next" onclick="goNext()">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+    </div>
+    <!-- Contact section -->
+    <div id="contact"></div>
+    <div class="parent_contact_section">
+      <h2 class="contact_header"><i class="fas fa-headset"></i> Get In <span style="color: #7303a7">Touch</span></h2>
+      <div class="container child_contact_section">
+        <div class="container_img">
+          <img src="./images/contact1.png" alt="contact" />
+        </div>
+        <div class="container_contact">
+          <form action="">
+            <div class="inputs">
+              <input id="name" type="text" placeholder="Name" required />
+            </div>
+            <div class="inputs">
+              <input id="email" type="text" placeholder="Email" required />
+            </div>
+            <div class="inputs">
+              <input id="phone" type="text" placeholder="Phone" required />
+            </div>
+            <div class="text_area">
+              <textarea name="" id="message" placeholder="Message" required></textarea>
+            </div>
+            <button class="submit">Submit <i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <a href="#home" class="scroll">
+      <i class="fa-solid fa-arrow-up"></i>
+    </a>
+
+    <!-- footer section -->
+
+    <footer>
+      <div class="container parent_footer_section">
+        <div class="main_footer">
+          <div class="section footer_about">
+            <h2>Sumit Sulakhe</h2>
+            <h3>I appreciate your time spent exploring the carefully curated contents of my portfolio section.</h3>
+          </div>
+          <div class="section footer_links">
+            <h2>Quick Links</h2>
+            <ul>
+              <li>
+                <i class="fa-solid fa-circle-chevron-right"></i>
+                <a class="sections" href="#home">home</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-chevron-right"></i>
+                <a class="sections" href="#about">about</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-chevron-right"></i>
+                <a class="sections" href="#skills">skills</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-chevron-right"></i>
+                <a class="sections" href="#education">education</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-chevron-right"></i>
+                <a class="sections" href="#projects">Projects</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-chevron-right"></i>
+
+                <a class="sections" href="#certifications">Certifications</a>
+              </li>
+              <li>
+                <i class="fa-solid fa-circle-chevron-right"></i>
+                <a class="sections" href="#contact">contact</a>
+              </li>
+            </ul>
+          </div>
+          <div class="section footer_contact">
+            <h2>Contact Info</h2>
+            <ul>
+              <li><i class="fa-solid fa-phone-flip" style="color: #ffae00"></i>+918892958795</li>
+              <li><i class="fa-solid fa-envelope" style="color: #ffae00"></i>sumitsulakhe2565@gmail.com</li>
+              <li><i class="fa-solid fa-location-dot" style="color: #ffae00"></i>Haveri,Karnataka-581110</li>
+            </ul>
+            <div class="footer_anchor_links">
+              <a
+                onmouseenter="FunProfileToggle(this, true)"
+                onmouseleave="FunProfileToggle(this, false)"
+                class="links in"
+                href="https://www.linkedin.com/in/sumit-suresh-sulakhe-423732258/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+              <a
+                onmouseenter="FunProfileToggle(this, true)"
+                onmouseleave="FunProfileToggle(this, false)"
+                class="links github"
+                href="https://github.com/Sumit-Sulakhe"
+                target="_blank"
+              >
+                <i class="fa-brands fa-square-github"></i>
+              </a>
+               <a
+                onmouseenter="FunProfileToggle(this, true)"
+                onmouseleave="FunProfileToggle(this, false)"
+                class="links telegram"
+                href="https://web.telegram.org/k/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-telegram"></i>
+              </a>
+              <a
+                onmouseenter="FunProfileToggle(this, true)"
+                onmouseleave="FunProfileToggle(this, false)"
+                class="links instagram"
+                href="https://www.instagram.com/s_aa_sumit/"
+                target="_blank"
+              >
+                <i class="fa-brands fa-instagram"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="main_footer_love">
+          <marquee style="margin-inline: 5%" behavior="" direction="">
+            <h3 class="marque" style="color: #fff">
+              I appreciate your time spent exploring the carefully curated contents of my portfolio section.
+            </h3>
+          </marquee>
+          <hr />
+          <h4 style="text-align: center; color: #fff; padding-block: 1%">
+            Designed With By
+            <a href="https://www.linkedin.com/in/sumit-suresh-sulakhe-423732258/" target="_blank" style="text-decoration: none; color: #ff7b00"
+              >Sumit Suresh Sulakhe</a
+            >
+          </h4>
+        </div>
+      </div>
+    </footer>
+  </body>
+  <script src="./index.js"></script>
+</html>
